@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-opacity-50 {
+  opacity: 1;
+}
+.bg-white {
+  background-color: white;
+}
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.w-96 {
+  width: 24rem;
+}
